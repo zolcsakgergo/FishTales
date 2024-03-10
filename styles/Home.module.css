@@ -1,0 +1,25 @@
+.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+}
+
+.h1 {
+        text-align: center;
+        margin: auto; /* Center horizontally */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Center vertically */
+}
+
+.h3 {
+        text-align: center;
+        margin-top: 20px;
+        position: absolute;
+        top: calc(50% + 20px); /* Position below h1 */
+        left: 50%;
+        transform: translateX(-50%); /* Center horizontally */
+}
