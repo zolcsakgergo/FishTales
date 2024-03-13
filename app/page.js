@@ -1,19 +1,23 @@
-import { Inter } from "next/font/google";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-const inter = Inter({ subsets: ["latin"] });
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className={inter.className}>
+    <div className={styles.container}>
       <Head>
         <title>FishTales</title>
         <link rel="icon" href="/public/favicon.ico" />
+        <script src="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.js"></script>
+        <link
+          type="text/css"
+          rel="stylesheet"
+          href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css"
+        />
       </Head>
-      <main className={styles.container}>
+      <main>
         <h1>Fish Tales</h1>
-        <h3>book your next adventure now</h3>
+        <h3>Book your next adventure now</h3>
         <Link href="/login">Login</Link>
       </main>
     </div>
