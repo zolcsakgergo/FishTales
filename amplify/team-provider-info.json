@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fishtales-dev-04718-authRole",
+      "UnauthRoleArn": "arn:aws:iam::533266988287:role/amplify-fishtales-dev-04718-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::533266988287:role/amplify-fishtales-dev-04718-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-fishtales-dev-04718-deployment",
+      "UnauthRoleName": "amplify-fishtales-dev-04718-unauthRole",
+      "StackName": "amplify-fishtales-dev-04718",
+      "StackId": "arn:aws:cloudformation:eu-north-1:533266988287:stack/amplify-fishtales-dev-04718/08222950-e194-11ee-b002-0e88416e1e56",
+      "AmplifyAppId": "d3m19ul003191h"
+    }
+  }
+}
