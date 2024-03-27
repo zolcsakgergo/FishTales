@@ -5,16 +5,18 @@ import "firebase/auth";
 import "./LogIn.css";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { auth } from "../firebase/config.jsx";
+import { useRouter } from "next/navigation";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [signInWithEmailAndPassword] = useSignInWithEmailAndPassword(auth);
+  const router = useRouter();
 
   const handleLogin = async (e) => {
     try {
       const res = await signInWithEmailAndPassword(email, password);
-      history.push("/");
+      router.push("/"); // Redirect to the home page
     } catch (error) {
       window.alert("wrong credentials"); // Show error message in a popup window
     }
