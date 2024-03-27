@@ -20,11 +20,8 @@ const Navbar = () => {
       <div className={styles.links}>
         <Link href={"/search"}>Search</Link>
         <Link href={"/about"}>Recomended for you</Link>
-        <Link href={"/track"}>Track others</Link>
-        <Link href={"/places/upload"}>Upload new place</Link>
-        <Link href={"/request-help"}>Request help</Link>
-        <Link href={"/registration"}> Sign Up</Link>
-        <Link href={"/login"}>Login</Link>
+        <Link href={"/SignUp"}> Sign Up</Link>
+        <Link href={"/Login"}>Login</Link>
       </div>
     </div>
   );
